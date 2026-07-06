@@ -1,11 +1,11 @@
 import {
-  Receipt, Arrow, Sparkle, Check, Scan, SparkleBox, Clock, Mail, Phone,
+  Arrow, Sparkle, Check, Scan, SparkleBox, Clock, Mail, Phone,
 } from './icons.jsx'
 
-function Brand({ dark }) {
+function Brand() {
   return (
     <div className="brand">
-      <span className="brand-mark"><Receipt /></span>
+      <span className="brand-mark" aria-hidden="true" />
       <span>
         <span className="b1">Just</span><span className="b2">ab</span>
       </span>
@@ -165,7 +165,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        <Brand dark />
+        <Brand />
         <p className="footer-tag">
           Scan receipts. Split costs. Settle up. Justab makes shared spending effortless.
         </p>
