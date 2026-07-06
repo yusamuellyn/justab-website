@@ -176,14 +176,7 @@ function Footer() {
             <span className="contact-icon"><Mail /></span>
             <span>
               <span className="label">Email</span>
-              <div className="value">hello@justab.app</div>
-            </span>
-          </div>
-          <div className="contact-row">
-            <span className="contact-icon"><Phone /></span>
-            <span>
-              <span className="label">Support</span>
-              <div className="value">+1 (555) 018-2273</div>
+              <div className="value">justabofficial@gmail.com</div>
             </span>
           </div>
         </div>
