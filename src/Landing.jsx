@@ -1,5 +1,5 @@
 import {
-  Arrow, Sparkle, Check, Scan, SparkleBox, Clock, Mail,
+  Arrow, Check, Scan, SparkleBox, Clock, Mail,
 } from './icons.jsx'
 import { Link } from 'react-router-dom'
 
@@ -32,9 +32,6 @@ function Hero() {
     <header className="hero">
       <Nav />
       <div className="container hero-inner">
-        <span className="badge">
-          <span className="dot" /><Sparkle /> Public Beta
-        </span>
         <h1>
           Scan the receipt.<br />
           <span className="line-2">Split the tab.</span>
@@ -90,7 +87,6 @@ function Features() {
             <ul className="roadmap-list">
               <li>Group History</li>
               <li>Member/Tip System Reworks</li>
-              <li>Leave/Copy Paste Party Functionality</li>
               <li>Venmo Compatability</li>
               <li>Advanced Paid Tier</li>
             </ul>
@@ -105,7 +101,7 @@ function HowItWorks() {
   const steps = [
     { n: '01', t: 'Snap', d: 'Take a photo of the receipt — paper, screenshot, or PDF.' },
     { n: '02', t: 'Assign', d: 'Tap each line to assign it. Shared items split automatically.' },
-    { n: '03', t: 'Settle', d: 'Justab breaks down exactly who owes what — tax, tip, and shared items included — so every table walks out even.' },
+    { n: '03', t: 'Settle', d: 'Justab breaks down exactly who owes what: tax, tip, and shared items included so every table walks out even.' },
   ]
   return (
     <section className="section howitworks" id="how">
